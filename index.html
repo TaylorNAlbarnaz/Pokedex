@@ -9,53 +9,60 @@
     </head>
 
     <body>
-        <header>
-            <img src="./media/logo.webp"/>
-        </header>
+        <div class="App">
+            <header>
+                <img src="./media/logo.webp"/>
+            </header>
 
-        <div class="pokeholder">
-            <div class="pokemon" id="poke1">
-                <div class="pokeimg">
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
-                </div>
-                <div class="pokeinfo">
-                    <div class="poketypes">
-                        <button>Grass</button>
-                        <button>Water</button>
+            <div class="pokeholder">
+                <div class="pokemon" id="poke1">
+                    <div class="pokeimg">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
                     </div>
-                    <h2>Bulbassaur</h2>
-                </div> 
+                    <div class="pokeinfo">
+                        <div class="poketypes">
+                            <button>Grass</button>
+                            <button>Water</button>
+                        </div>
+                        <h2>Bulbassaur</h2>
+                    </div> 
+                </div>
+
+                <div class="pokemon" id="poke2">
+                    <div class="pokeimg">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
+                    </div>
+                    <div class="pokeinfo">
+                        <div class="poketypes">
+                            <button>Grass</button>
+                            <button>Water</button>
+                        </div>
+                        <h2>Bulbassaur</h2>
+                    </div> 
+                </div>
+
+                <div class="pokemon" id="poke3">
+                    <div class="pokeimg">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
+                    </div>
+                    <div class="pokeinfo">
+                        <div class="poketypes">
+                            <button class="grass">Grass</button>
+                            <button class="water">Water</button>
+                        </div>
+                        <h2>Bulbassaur</h2>
+                    </div> 
+                </div>
             </div>
 
-            <div class="pokemon" id="poke2">
-                <div class="pokeimg">
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
-                </div>
-                <div class="pokeinfo">
-                    <div class="poketypes">
-                        <button>Grass</button>
-                        <button>Water</button>
-                    </div>
-                    <h2>Bulbassaur</h2>
-                </div> 
+            <div class="counter">
+                <span>1</span>
             </div>
 
-            <div class="pokemon" id="poke3">
-                <div class="pokeimg">
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
-                </div>
-                <div class="pokeinfo">
-                    <div class="poketypes">
-                        <button>Grass</button>
-                        <button>Water</button>
-                    </div>
-                    <h2>Bulbassaur</h2>
-                </div> 
+            <div class="buttons">
+                <div id="left_button" class="button"></div>
+                <div id="right_button" class="button"></div>
             </div>
-        </div>
-
-        <div>
-
         </div>
     </body>
 </html>
