@@ -2,35 +2,76 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    height: 10vh;
 }
 
 .pokeholder {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .pokemon {
     display: flex;
     width: 20%;
-    height: 60%;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
+    height: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10%;
 }
 
-.pokemon > img {
-    width: 70%;
+.pokeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.pokeimg > img {
+    position: relative;
+    width: 90%;
+    top: 20%;
+}
+
+.pokeinfo {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.pokeinfo > h2 {
+    color: white;
+    font-size: 2.25em;
+}
+
+.poketypes > button {
+    color: white;
+    border: 0;
+    border-radius: 15%;
+    background-color: black;
+    padding: 0.2em 0.5em;
 }
 
 #poke2 {
     width: 25%;
-    height: 70%;
+    height: 60%;
+}
+
+#poke2 img {
+    width: 100%;
 }
