@@ -16,12 +16,12 @@ function loadPokemon(url) {
                 </div>
                 <div class="pokeinfo">
                     <div class="poketypes">
-                        <button>Grass</button>
-                        <button>Water</button>
+                        ${pokemon[i].types.map((type) => `<button class="${type}">${type}</button>`).join("")}
                     </div>
                     <h2>${pokemon[i].name}</h2>
                 </div> 
                 `
+                console.log(pokeCards[i].innerHTML)
             }
         })
 }
